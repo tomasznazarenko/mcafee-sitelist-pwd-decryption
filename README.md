@@ -1,5 +1,15 @@
-### Python3 password decryption tool for the McAfee **SiteList.xml** file.
- 
+### This is a fork of Python3 password decryption tool for the McAfee **SiteList.xml** file.
+
+The script is readjusted to work with newest python3 on Kali Linux.
+
+Make sure you have the `pycryptodome` library installed. `pycryptodome` is a drop-in replacement for the PyCrypto library. 
+You can install it using pip3:
+
+```
+pip3 install pycryptodome
+```
+
+ Original author:
 - Author:  jerome.nokin@gmail.com
 - Blog:  http://funoverip.net
 - Date:  Feb 10 2016
